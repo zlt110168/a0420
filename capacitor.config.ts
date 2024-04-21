@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: "one",
   webDir: "dist",
   server: {
-    url: "http://192.168.31.217:4321",
+    url: "https://a0420.webone.club",
     cleartext: true,
   },
 };
