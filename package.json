@@ -10,8 +10,29 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.6.3",
     "@astrojs/check": "^0.5.10",
-    "typescript": "^5.4.5"
+    "@astrojs/node": "^8.2.5",
+    "@astrojs/react": "^3.3.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vue": "^4.1.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "antd-mobile": "^5.35.0",
+    "astro": "^4.6.3",
+    "lorem-ipsum": "^2.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vant": "^4.8.11",
+    "vue": "^3.4.23"
+  },
+  "devDependencies": {
+    "@vant/auto-import-resolver": "^1.1.0",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0"
   }
 }

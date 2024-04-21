@@ -1,0 +1,14 @@
+---
+import Rone from "../components/Rone";
+import Rtwo from "../components/Rtwo";
+import Vone from "../components/Vone.vue";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="pone">
+  <Rtwo client:only="react" />
+  <div class="p-20 bg-blue-50"><a href="/">one11</a></div>
+  <div class="p-20 bg-red-50" onclick="history.back()">two22</div>
+  <Vone client:only="vue" />
+  <Rone client:only="react" />
+</Layout>
